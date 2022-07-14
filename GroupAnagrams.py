@@ -1,4 +1,4 @@
-#49. Group Anagrams, Time/Space - O(n)
+#49. Group Anagrams, Time/Space - O(n*m)
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         anagramMap = {}
